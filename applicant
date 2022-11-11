@@ -5,3 +5,14 @@
     <account.address> 17 Sunshine Lane, Dublin 15 </account.address>
     <applicant.CV> EvaCV2022.pdf </applicant.CV>
 </applicant>
+
+<?xmlversion="1.0" standalone="yes" ?>
+<!DOCTYPE applicant [
+  <!ELEMENT applicant (email+, password+, name+, address*, CV*)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT password (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT CV (#PCDATA)>
+]>
+
