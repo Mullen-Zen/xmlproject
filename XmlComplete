@@ -15,3 +15,11 @@
     <Applicant.address> 17 Sunshine Lane, Dublin 15 </Applicant.address>
     <Applicant.CV> EvaCV2022.pdf </Applicant.CV>
 </Applicant>
+
+
+<bloodDonor id = "doner1">
+    <bloodDonor.dateOfBirth> 10/07/2000 </bloodDonor.dateOfBirth>
+    <bloodDonor.phoneNumber> 087 341 5885 </bloodDonor.phoneNumber>
+    <blooDonor.medicalInfo>  non </bloodDonor.medicalInfo>
+    <bloodDonor.extends> <Applicant idref ="1"/>
+</bloodDonor>
