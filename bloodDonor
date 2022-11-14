@@ -10,12 +10,7 @@
     <!ATTLIST bloodDonor id CDATA #IMPLIED>
     ]>
 
-
-
-
-
-
-<bloodDonor id = "doner1">
+<bloodDonor id = "donor 1">
 
     
     <dateOfBirth> 10/07/2000 </dateOfBirth>
