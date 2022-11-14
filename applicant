@@ -1,17 +1,20 @@
-<?xmlversion="1.0" standalone="yes" ?>
+<?xmlversion = "1.0"?>
 <!DOCTYPE applicant [
   <!ELEMENT applicant (email+, password+, name+, address*, CV*)>
+
   <!ELEMENT email (#PCDATA)>
   <!ELEMENT password (#PCDATA)>
   <!ELEMENT name (#PCDATA)>
   <!ELEMENT address (#PCDATA)>
   <!ELEMENT CV (#PCDATA)>
+
+  <!ATTLIST applicant id CDATA #IMPLIED>
 ]>
 
-<Applicant id  = "1">
-    <Applicant.email> egaynor@tcd.ie </Applicant.email>
-    <Applicant.password> kdh5jt6kwb </Applicant.password>
-    <Applicant.name> Eva Gaynor </Applicant.name>
-    <Applicant.address> 17 Sunshine Lane, Dublin 15 </Applicant.address>
-    <Applicant.CV> EvaCV2022.pdf </Applicant.CV>
-</Applicant>
+<applicant id  = "1">
+    <email> egaynor@tcd.ie </email>
+    <password> kdh5jt6kwb </password>
+    <name> Eva Gaynor </name>
+    <address> 17 Sunshine Lane, Dublin 15 </address>
+    <CV> EvaCV2022.pdf </CV>
+</applicant>
