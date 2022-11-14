@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE Account [
+    <!ELEMENT Account (emailAddress,password,name,address)>
+    <!ELEMENT emailAddress (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ATTLIST Account id CDATA #REQUIRED>
+]>
+
+<Account id = "1">
+    <emailAddress > jainu@tcd.ie</emailAddress>
+    <password> u1234</password>
+    <name>Udit</name>
+    <address>Point Village</address>
+</Account>
