@@ -1,0 +1,25 @@
+<?xmlversion="1.0" standalone="yes" ?>
+<!DOCTYPE applicant [
+  <!ELEMENT applicant (email+, password+, name+, address*, CV*)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT password (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT address (#PCDATA)>
+  <!ELEMENT CV (#PCDATA)>
+]>
+
+<Applicant id  = "1">
+    <Applicant.email> egaynor@tcd.ie </Applicant.email>
+    <Applicant.password> kdh5jt6kwb </Applicant.password>
+    <Applicant.name> Eva Gaynor </Applicant.name>
+    <Applicant.address> 17 Sunshine Lane, Dublin 15 </Applicant.address>
+    <Applicant.CV> EvaCV2022.pdf </Applicant.CV>
+</Applicant>
+
+
+<bloodDonor id = "doner1">
+    <bloodDonor.dateOfBirth> 10/07/2000 </bloodDonor.dateOfBirth>
+    <bloodDonor.phoneNumber> 087 341 5885 </bloodDonor.phoneNumber>
+    <blooDonor.medicalInfo>  non </bloodDonor.medicalInfo>
+    <bloodDonor.extends> <Applicant idref ="1"/>
+</bloodDonor>
