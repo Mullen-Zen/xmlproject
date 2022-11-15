@@ -5,7 +5,7 @@
 
     <!ELEMENT bloodDonorList (account+)>
     <!ELEMENT account (password,bloodDonor)>
-    <!ELEMENT bloodDonor ( dateOfBirth+,phoneNumber+,medicalInfo+)>
+    <!ELEMENT bloodDonor ( dateOfBirth,phoneNumber,medicalInfo)>
 
     <!ELEMENT  dateOfBirth (#PCDATA)>
     <!ELEMENT  phoneNumber (#PCDATA)>
