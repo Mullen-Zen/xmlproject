@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Blood_Donations [
-    <!ELEMENT Blood_Donations  (Blood_Type, Medical_Info)>
+    <!ELEMENT Blood_Donations  (Blood_Type, Date_Taken)>
     <!ELEMENT Blood_Type       (#PCDATA)>
-    <!ELEMENT Medical_Info     (#PCDATA)>
+    <!ELEMENT Date_Taken     (#PCDATA)>
 
-    <!ATTLIST Blood_Donations   Blood_Donor_ID CDATA #IMPLIED>
+    <!ATTLIST Blood_Donations   Account_ID CDATA #IMPLIED>
 ]>
-<Blood_Donations Blood_Donor_ID = "donor id 123">
+<Blood_Donations Account_ID = "4">
     <Blood_Type> B </Blood_Type>
-    <Medical_Info> n/a </Medical_Info>
+    <Date_Taken> 15/11/2022 </Date_Taken>
 </Blood_Donations> 
