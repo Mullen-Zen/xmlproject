@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE campaigners [
+    <!ELEMENT campaigners (account+)>
+    <!ELEMENT account (password,campaigner)>
+    <!ELEMENT campaigner (nameCampaign)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT nameCampaign (#PCDATA)>
+    <!ATTLIST account id CDATA #REQUIRED>
+]>
+
+<campaigners>
+    <account id = "13">
+        <password> gifb45sbg </password>
+        <campaigner>
+            <nameCampaign> Join The Red Cross </nameCampaign>
+        </campaigner>
+    </account>
+
+    <account id = "14">
+        <password> 01u7fhw7 </password>
+        <campaigner>
+            <nameCampaign> Relief Event </nameCampaign>
+        </campaigner>
+    </account>
+
+    <account id = "15">
+        <password> blahblah </password>
+        <campaigner>
+            <nameCampaign> Fundraising Event </nameCampaign>
+        </campaigner>
+    </account>
+
+    <account id = "16">
+        <password> 000000  </password>
+        <campaigner>
+            <nameCampaign> Awareness Event </nameCampaign>
+        </campaigner>
+    </account>
+
+    <account id = "17">
+        <password> hdiat466 </password>  
+        <campaigner>
+            <nameCampaign> International Service Event </nameCampaign>
+        </campaigner>
+    </account>
+
+    <account id = "18">
+        <password> 123456 </password>
+        <campaigner>
+            <nameCampaign> Red Cross Day </nameCampaign>
+        </campaigner>
+    </account>
+</campaigners>
