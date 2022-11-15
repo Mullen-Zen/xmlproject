@@ -4,12 +4,13 @@
 
 
     <!ELEMENT bloodDonorList (account+)>
-    <!ELEMENT account (bloodDonor)>
+    <!ELEMENT account (password,bloodDonor)>
     <!ELEMENT bloodDonor ( dateOfBirth+,phoneNumber+,medicalInfo+)>
 
     <!ELEMENT  dateOfBirth (#PCDATA)>
     <!ELEMENT  phoneNumber (#PCDATA)>
     <!ELEMENT  medicalInfo (#PCDATA)>
+    <!ELEMENT  password    (#PCDATA)>
 
     <!ATTLIST account id CDATA #IMPLIED>
     ]>
@@ -18,15 +19,75 @@
 <bloodDonorList>
 
 
-     <account id = "4">
+    <account id = "4">
+        <password> fcuei45 </password>
          <bloodDonor>
 
-            <dateOfBirth> 10/07/2000 </dateOfBirth>
+            <dateOfBirth> 15/07/1999 </dateOfBirth>
             <phoneNumber> 087 341 5885 </phoneNumber>
             <medicalInfo>  none </medicalInfo>
     
          </bloodDonor>
     </account>
+
+    <account id = "5">
+        <password> fyri07d </password>
+        <bloodDonor>
+
+           <dateOfBirth> 10/09/1800 </dateOfBirth>
+           <phoneNumber> 087 341 5885 </phoneNumber>
+           <medicalInfo>  none </medicalInfo>
+   
+        </bloodDonor>
+   </account>
+
+
+
+   <account id = "6">
+        <password> hsuwsg44 </password>
+        <bloodDonor>
+
+         <dateOfBirth> 1/1/1989 </dateOfBirth>
+         <phoneNumber> 087 341 5885 </phoneNumber>
+         <medicalInfo>  none </medicalInfo>
+
+        </bloodDonor>
+    </account>
+
+<account id = "10">
+    <password> bcyie444 </password>
+     <bloodDonor>
+
+        <dateOfBirth> 15/07/1999 </dateOfBirth>
+        <phoneNumber> 087 341 5885 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+
+     </bloodDonor>
+</account>
+
+
+<account id = "11">
+    <password> butterfly </password>
+     <bloodDonor>
+
+        <dateOfBirth> 15/07/1999 </dateOfBirth>
+        <phoneNumber> 087 341 5885 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+
+     </bloodDonor>
+</account>
+
+<account id = "13">
+    <password> gifb45sbg </password>
+     <bloodDonor>
+
+        <dateOfBirth> 15/07/1999 </dateOfBirth>
+        <phoneNumber> 087 341 5885 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+
+     </bloodDonor>
+</account>
+
 
 
  
