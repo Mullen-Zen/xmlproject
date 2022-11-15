@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
-<!DOCTYPE volunteer [
+<!DOCTYPE volunteerList [
+    <!ELEMENT volunteerList (account+)>
+    <!ELEMENT account (volunteer)>
     <!ELEMENT volunteer (volNumber+, availability+, 
     qualifications+, location+)>
 
@@ -9,14 +11,127 @@
     <!ELEMENT qualifications (#PCDATA)>
     <!ELEMENT location (#PCDATA)>
 
-    <!ATTLIST volunteer id CDATA #IMPLIED>
+    <!ATTLIST account id CDATA #IMPLIED>
 ]>
 
-<volunteer id = "volunteer 1">
+<volunteerList>
 
-    <volNumber> 001234 </volNumber>
-    <availability> available </availability>
-    <qualifications> none </qualifications>
-    <location> Dublin </location>
+<account id = "7">
+    <volunteer>
 
-</volunteer>
+        <volNumber> 001 </volNumber>
+        <availability> available </availability>
+        <qualifications> none </qualifications>
+        <location> Dublin </location>
+
+    </volunteer>
+</account>
+
+<account id = "8">
+    <volunteer>
+
+        <volNumber> 002 </volNumber>
+        <availability> available </availability>
+        <qualifications> none </qualifications>
+        <location> Cork </location>
+
+    </volunteer>
+</account>
+
+<account id = "9">
+    <volunteer>
+
+        <volNumber> 003 </volNumber>
+        <availability> available </availability>
+        <qualifications> none </qualifications>
+        <location> Galway </location>
+
+    </volunteer>
+</account>
+
+
+<account id = "12">
+    <volunteer>
+
+        <volNumber> 004 </volNumber>
+        <availability> available </availability>
+        <qualifications> none </qualifications>
+        <location> Belfast </location>
+
+    </volunteer>
+</account>
+
+
+<account id = "13">
+    <volunteer>
+
+        <volNumber> 005 </volNumber>
+        <availability> available </availability>
+        <qualifications> none </qualifications>
+        <location> Derry </location>
+
+    </volunteer>
+</account>
+
+
+<account id = "14">
+    <volunteer>
+
+        <volNumber> 006 </volNumber>
+        <availability> unavailable </availability>
+        <qualifications> none </qualifications>
+        <location> Waterford </location>
+
+    </volunteer>
+</account>
+
+    
+
+<account id = "15">
+    <volunteer>
+
+        <volNumber> 007 </volNumber>
+        <availability> available </availability>
+        <qualifications> none </qualifications>
+        <location> Limerick </location>
+
+    </volunteer>
+</account>
+
+
+<account id = "16">
+    <volunteer>
+
+        <volNumber> 008 </volNumber>
+        <availability> available </availability>
+        <qualifications> firstAid.pdf </qualifications>
+        <location> Kilkenny </location>
+
+    </volunteer>
+</account>
+
+
+<account id = "17">
+    <volunteer>
+
+        <volNumber> 009 </volNumber>
+        <availability> unavailable </availability>
+        <qualifications> none </qualifications>
+        <location> Tralee </location>
+
+    </volunteer>
+</account>
+
+
+<account id = "18">
+    <volunteer>
+
+        <volNumber> 010 </volNumber>
+        <availability> available </availability>
+        <qualifications> firstAid.pdf </qualifications>
+        <location> Castlebar </location>
+
+    </volunteer>
+</account>
+
+</volunteerList>
