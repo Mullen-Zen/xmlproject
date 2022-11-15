@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE applicants [
+    <!ELEMENT applicants (account+)>
+    <!ELEMENT account (password, applicant)>
+    <!ELEMENT emailAddress (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT applicant (CV*)>
+    <!ELEMENT CV (#PCDATA)>
+    <!ATTLIST account id CDATA #REQUIRED>
+]>
+
+<applicants>
+  <account id = "1">
+      <password> u1234 </password>
+      <applicant>
+          <CV> JainUCV.pdf </CV>
+      </applicant>
+  </account>
+
+  <account id = "2">
+    <password> ducw342 </password>
+    <applicant>
+        <CV> EvaGCV.pdf </CV>
+    </applicant>
+  </account>
+
+  <account id = "3">
+    <password> j75hg </password>
+    <applicant>
+        <CV> MullGarrCV.pdf </CV>
+    </applicant>
+  </account>
+
+  <account id = "10">
+    <password> bcyie444 </password>
+    <applicant>
+        <CV> BartSCV.pdf </CV>
+    </applicant>
+  </account>
+
+  <account id = "11">
+    <password> butterfly </password>
+    <applicant>
+        <CV> RachCV.pdf </CV>
+    </applicant>
+  </account>
+
+  <account id = "12">
+    <password> bdxswi4756 </password>
+    <applicant>
+        <CV> BingsCV.pdf </CV>
+    </applicant>
+  </account>
+</applicants>
