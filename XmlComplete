@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<!DOCTYPE redcross [
+
+    <!ELEMENT redcross (Account+)>
+    <!ELEMENT Account (emailAddress,password,name,address,applicant?,bloodDonor*)>
+    <!ELEMENT emailAddress (#PCDATA)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT address (#PCDATA)>
+    <!ELEMENT applicant (CV)>
+    <!ELEMENT bloodDonor (dateOfBirth,phoneNumber,medicalInfo)>
+
+    <!ELEMENT CV (#PCDATA)>
+
+    <!ELEMENT  dateOfBirth (#PCDATA)>
+    <!ELEMENT  phoneNumber (#PCDATA)>
+    <!ELEMENT  medicalInfo (#PCDATA)>
+
+
+
+
+    <!ATTLIST Account id CDATA #REQUIRED>
+    <!ATTLIST Account id CDATA #REQUIRED>
+    
+
+]>
+<redcross>
+
+
+
+<Account id = "1">
+    <emailAddress > jainu@tcd.ie</emailAddress>
+    <password> u1234</password>
+    <name>Udit</name>
+    <address>Point Village</address>
+    <applicant >
+
+        <CV> EvaCV2022.pdf </CV>
+        
+    </applicant>
+
+
+</Account>
+
+
+<Account id = "2">
+    <emailAddress > jainu@tcd.ie</emailAddress>
+    <password> u1234</password>
+    <name>Udit</name>
+    <address>Point Village</address>
+    <bloodDonor >
+        
+        <dateOfBirth> 10/07/2000 </dateOfBirth>
+        <phoneNumber> 087 341 5885 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+        
+    </bloodDonor>
+
+
+</Account>
+
+</redcross>
