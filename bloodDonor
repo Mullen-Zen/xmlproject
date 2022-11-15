@@ -1,6 +1,9 @@
 <?xml version = "1.0"?>
 
-<!DOCTYPE bloodDonor [
+<!DOCTYPE bloodDonorList [
+
+
+    <!ELEMENT bloodDonorList (bloodDonor+)>
     <!ELEMENT bloodDonor ( dateOfBirth+,phoneNumber+,medicalInfo+)>
 
     <!ELEMENT  dateOfBirth (#PCDATA)>
@@ -10,11 +13,27 @@
     <!ATTLIST bloodDonor id CDATA #IMPLIED>
     ]>
 
-<bloodDonor id = "donor 1">
+
+<bloodDonorList>
+
+    <bloodDonor id = "JaW869">
 
     
-    <dateOfBirth> 10/07/2000 </dateOfBirth>
-    <phoneNumber> 087 341 5885 </phoneNumber>
-    <medicalInfo>  none </medicalInfo>
+     <dateOfBirth> 10/07/2000 </dateOfBirth>
+     <phoneNumber> 087 341 5885 </phoneNumber>
+     <medicalInfo>  none </medicalInfo>
     
-</bloodDonor>
+    </bloodDonor>
+
+    <bloodDonor id = "UdJ216">
+
+        <dateOfBirth> 10/07/2000 </dateOfBirth>
+        <phoneNumber> 087 341 5885 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+
+    </bloodDonor>
+
+
+    
+
+</bloodDonorList>
