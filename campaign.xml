@@ -1,0 +1,15 @@
+<?xml version = "1.0"?>
+
+<!DOCTYPE campaign [
+    <!ELEMENT campaign (numberOfAttendees?)>
+
+    <!ELEMENT numberOfAttendees (#PCDATA)>
+
+    <!ATTLIST campaign id CDATA #IMPLIED>
+    ]>
+
+<campaign id = "refugee aid">
+
+    <numberOfAttendees> 150 </numberOfAttendees>
+
+</campaign>
