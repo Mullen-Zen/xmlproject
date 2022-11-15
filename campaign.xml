@@ -5,6 +5,7 @@
     <!ELEMENT campaigner (nameCampaign)>
     <!ELEMENT password (#PCDATA)>
     <!ELEMENT nameCampaign (#PCDATA)>
+    
     <!ATTLIST account id CDATA #REQUIRED>
 ]>
 

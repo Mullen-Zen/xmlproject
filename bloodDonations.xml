@@ -1,12 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Blood_Donations [
-    <!ELEMENT Blood_Donations  (Blood_Type, Date_Taken)>
-    <!ELEMENT Blood_Type       (#PCDATA)>
-    <!ELEMENT Date_Taken     (#PCDATA)>
+<?xml version="1.0" encoding="UTF-8" standalone = "yes"?>
+<!DOCTYPE bloodDonationsList [
+    <!ELEMENT bloodDonationsList (account+)>
+    <!ELEMENT account (password, bloodDonations)>
+    <!ELEMENT password (#PCDATA)>
+    <!ELEMENT bloodDonations (bloodType, dateTaken, donationNumber)>
+    <!ELEMENT bloodType (#PCDATA)>
+    <!ELEMENT dateTaken (#PCDATA)>
+    <!ELEMENT donationNumber (#PCDATA)>
 
-    <!ATTLIST Blood_Donations   Account_ID CDATA #IMPLIED>
+    <!ATTLIST account id CDATA #REQUIRED>
 ]>
-<Blood_Donations Account_ID = "4">
-    <Blood_Type> B </Blood_Type>
-    <Date_Taken> 15/11/2022 </Date_Taken>
-</Blood_Donations> 
+
+<bloodDonationsList>
+    <account id = "4">
+        <password> fcuei45 </password>
+        <bloodDonations>
+            <bloodType> B- </bloodType>
+            <dateTaken> 12/05/2022 </dateTaken>
+            <donationNumber> 1 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "4">
+        <password> fcuei45 </password>
+        <bloodDonations>
+            <bloodType> B- </bloodType>
+            <dateTaken> 15/11/2022 </dateTaken>
+            <donationNumber> 2 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "5">
+        <password> fyri07d </password>
+        <bloodDonations>
+            <bloodType> O- </bloodType>
+            <dateTaken> 16/11/2022 </dateTaken>
+            <donationNumber> 1 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "6">
+        <password> hsuwsg44 </password>
+        <bloodDonations>
+            <bloodType> A+ </bloodType>
+            <dateTaken> 02/12/2022 </dateTaken>
+            <donationNumber> 1 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "10">
+        <password> bcyie444 </password>
+        <bloodDonations>
+            <bloodType> A- </bloodType>
+            <dateTaken> 10/01/2022 </dateTaken>
+            <donationNumber> 1 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "10">
+        <password> bcyie444 </password>
+        <bloodDonations>
+            <bloodType> A- </bloodType>
+            <dateTaken> 15/07/2022 </dateTaken>
+            <donationNumber> 2 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "10">
+        <password> bcyie444 </password>
+        <bloodDonations>
+            <bloodType> A- </bloodType>
+            <dateTaken> 12/12/2022 </dateTaken>
+            <donationNumber> 3 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "11">
+        <password> butterfly </password>
+        <bloodDonations>
+            <bloodType> B- </bloodType>
+            <dateTaken> 08/09/2022 </dateTaken>
+            <donationNumber> 1 </donationNumber>
+        </bloodDonations>
+    </account> 
+
+    <account id = "13">
+        <password> gifb45sbg </password>
+        <bloodDonations>
+            <bloodType> OB- </bloodType>
+            <dateTaken> 17/08/2022 </dateTaken>
+            <donationNumber> 1 </donationNumber>
+        </bloodDonations>
+    </account> 
+</bloodDonationsList>

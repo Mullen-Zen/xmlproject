@@ -3,9 +3,7 @@
 <!DOCTYPE volunteerList [
     <!ELEMENT volunteerList (account+)>
     <!ELEMENT account (volunteer)>
-    <!ELEMENT volunteer (volNumber+, availability+, 
-    qualifications+, location+)>
-
+    <!ELEMENT volunteer (volNumber+, availability+, qualifications+, location+)>
     <!ELEMENT volNumber (#PCDATA)>
     <!ELEMENT availability (#PCDATA)>
     <!ELEMENT qualifications (#PCDATA)>

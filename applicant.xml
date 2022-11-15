@@ -2,12 +2,10 @@
 <!DOCTYPE applicants [
     <!ELEMENT applicants (account+)>
     <!ELEMENT account (password, applicant)>
-    <!ELEMENT emailAddress (#PCDATA)>
     <!ELEMENT password (#PCDATA)>
-    <!ELEMENT name (#PCDATA)>
-    <!ELEMENT address (#PCDATA)>
     <!ELEMENT applicant (CV*)>
     <!ELEMENT CV (#PCDATA)>
+
     <!ATTLIST account id CDATA #REQUIRED>
 ]>
 
