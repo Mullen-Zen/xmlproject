@@ -4,7 +4,7 @@
     <!ELEMENT Blood_Type       (#PCDATA)>
     <!ELEMENT Medical_Info     (#PCDATA)>
 
-    <!ATTLIST Blood_Donations    Blood_Donor_ID CDATA #IMPLIED>
+    <!ATTLIST Blood_Donations   Blood_Donor_ID CDATA #IMPLIED>
 ]>
 <Blood_Donations Blood_Donor_ID = "donor id 123">
     <Blood_Type> B </Blood_Type>
