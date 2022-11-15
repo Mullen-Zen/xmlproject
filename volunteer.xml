@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE volunteer [
+    <!ELEMENT volunteer (volNumber+, availability+, 
+    qualifications+, location+)>
+
+    <!ELEMENT volNumber (#PCDATA)>
+    <!ELEMENT availability (#PCDATA)>
+    <!ELEMENT qualifications (#PCDATA)>
+    <!ELEMENT location (#PCDATA)>
+
+    <!ATTLIST volunteer id CDATA #IMPLIED>
+]>
+
+<volunteer id = "volunteer 1">
+
+    <volNumber> 001234 </volNumber>
+    <availability> available </availability>
+    <qualifications> none </qualifications>
+    <location> Dublin </location>
+
+</volunteer>
