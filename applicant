@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE redCross [
-    <!ELEMENT redCross (account+)>
-    <!ELEMENT account (emailAddress,password,name,address, applicant)>
+<!DOCTYPE applicants [
+    <!ELEMENT applicants (account+)>
+    <!ELEMENT account (password, applicant)>
     <!ELEMENT emailAddress (#PCDATA)>
     <!ELEMENT password (#PCDATA)>
     <!ELEMENT name (#PCDATA)>
@@ -11,77 +11,46 @@
     <!ATTLIST account id CDATA #REQUIRED>
 ]>
 
-<redCross>
-  
+<applicants>
   <account id = "UdJ216">
-      <emailAddress > jainu@tcd.ie </emailAddress>
       <password> u1234 </password>
-      <name> Udit Jain </name>
-      <address> Point Village </address>
-
       <applicant>
           <CV> JainUCV.pdf </CV>
       </applicant>
-
   </account>
 
   <account id = "EvG102">
-    <emailAddress > egaynor@tcd.ie </emailAddress>
     <password> ducw342 </password>
-    <name> Eva Gaynor </name>
-    <address> Castleknock </address>
-
     <applicant>
         <CV> EvaGCV.pdf </CV>
     </applicant>
-
   </account>
 
   <account id = "GaM763">
-    <emailAddress > mullenga@tcd.ie </emailAddress>
     <password> j75hg </password>
-    <name> Garrison Mullen </name>
-    <address> Cork Street </address>
-
     <applicant>
         <CV> MullGarrCV.pdf </CV>
     </applicant>
-
   </account>
 
   <account id = "JaW869">
-    <emailAddress > wallacj2@tcd.ie </emailAddress>
     <password> fcuei45 </password>
-    <name> Jay Wallace </name>
-    <address> Clontarf </address>
-
     <applicant>
         <CV> WallaceCV.pdf </CV>
     </applicant>
-
   </account>
 
   <account id = "AdC700">
-    <emailAddress > cunnanad@tcd.ie </emailAddress>
     <password> fyri07d </password>
-    <name> Adam Cunnane </name>
-    <address> Kilmainham </address>
-
     <applicant>
         <CV> AdamCV.pdf </CV>
     </applicant>
-
   </account>
 
   <account id = "KoO483">
-    <emailAddress > cunnanad@tcd.ie </emailAddress>
     <password> fyri07d </password>
-    <name> Adam Cunnane </name>
-    <address> Kilmainham </address>
-
     <applicant>
         <CV> AdamCV.pdf </CV>
     </applicant>
-
   </account>
-</redCross>
+</applicants>

@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE Account [
-    <!ELEMENT Account (emailAddress,password,name,address)>
+<!DOCTYPE accounts [
+    <!ELEMENT accounts (account+)>
+    <!ELEMENT account (emailAddress,password,name,address)>
     <!ELEMENT emailAddress (#PCDATA)>
     <!ELEMENT password (#PCDATA)>
     <!ELEMENT name (#PCDATA)>
     <!ELEMENT address (#PCDATA)>
-    <!ATTLIST Account id CDATA #REQUIRED>
+    <!ATTLIST account id CDATA #REQUIRED>
 ]>
+<accounts>
+    <account id = "UdJ216">
+        <emailAddress > jainu@tcd.ie </emailAddress>
+        <password> u1234 </password>
+        <name> Udit Jain </name>
+        <address> Point Village </address>
+    </account>
 
-<Account id = "1">
-    <emailAddress > jainu@tcd.ie</emailAddress>
-    <password> u1234</password>
-    <name>Udit</name>
-    <address>Point Village</address>
-</Account>
+    <account id = "EvG102">
+        <emailAddress > egaynor@tcd.ie </emailAddress>
+        <password> ducw342 </password>
+        <name> Eva Gaynor </name>
+        <address> Castleknock </address>
+    </account>
+
+    <account id = "GaM763">
+        <emailAddress > mullenga@tcd.ie </emailAddress>
+        <password> j75hg </password>
+        <name> Garrison Mullen </name>
+        <address> Cork Street </address>
+    </account>
+
+    <account id = "JaW869">
+        <emailAddress > wallacj2@tcd.ie </emailAddress>
+        <password> fcuei45 </password>
+        <name> Jay Wallace </name>
+        <address> Clontarf </address>
+    </account>
+
+    <account id = "AdC700">
+        <emailAddress > cunnanad@tcd.ie </emailAddress>
+        <password> fyri07d </password>
+        <name> Adam Cunnane </name>
+        <address> Kilmainham </address>
+    </account>
+
+    <account id = "KoO483">
+        <emailAddress > cunnanad@tcd.ie </emailAddress>
+        <password> fyri07d </password>
+        <name> Adam Cunnane </name>
+        <address> Kilmainham </address>
+    </account>
+</accounts>
