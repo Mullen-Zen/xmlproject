@@ -50,4 +50,88 @@
         <name> Kofo Ojo </name>
         <address> Dublin </address>
     </account>
+
+    <account id = "7">
+        <emailAddress > simpsonl@tcd.ie </emailAddress>
+        <password> iewbyu563 </password>
+        <name> Lisa Simpson </name>
+        <address> Springfield </address>
+    </account>
+
+    <account id = "8">
+        <emailAddress > simpsonh@tcd.ie </emailAddress>
+        <password> 1906hgf </password>
+        <name> Homer Simpson </name>
+        <address> Springfield </address>
+    </account>
+
+    <account id = "9">
+        <emailAddress > simpsonm@tcd.ie </emailAddress>
+        <password> bcjue321 </password>
+        <name> Marge Simpson </name>
+        <address> Springfield </address>
+    </account>
+
+    <account id = "10">
+        <emailAddress > simpsonb@tcd.ie </emailAddress>
+        <password> bcyie444 </password>
+        <name> Bart Simpson </name>
+        <address> Springfield </address>
+    </account>
+
+    <account id = "11">
+        <emailAddress > greener@tcd.ie </emailAddress>
+        <password> butterfly </password>
+        <name> Rachel Greene </name>
+        <address> New York </address>
+    </account>
+
+    <account id = "12">
+        <emailAddress > bingch@tcd.ie </emailAddress>
+        <password> bdxswi4756 </password>
+        <name> Chandler Bing </name>
+        <address> New York </address>
+    </account>
+
+    <account id = "13">
+        <emailAddress > gellerm@tcd.ie </emailAddress>
+        <password> gifb45sbg </password>
+        <name> Monica Geller </name>
+        <address> New York </address>
+    </account>
+
+    <account id = "14">
+        <emailAddress > gellerr@tcd.ie </emailAddress>
+        <password> 01u7fhw7 </password>
+        <name> Ross Geller </name>
+        <address> New York </address>
+    </account>
+
+    <account id = "15">
+        <emailAddress > tribbianij@tcd.ie </emailAddress>
+        <password> blahblah </password>
+        <name> Joseph Tribbiani </name>
+        <address> New York </address>
+    </account>
+
+    <account id = "16">
+        <emailAddress > buffayph@tcd.ie </emailAddress>
+        <password> 000000 </password>
+        <name> Phoebe Buffay </name>
+        <address> New York </address>
+    </account>
+
+    <account id = "17">
+        <emailAddress > vanderwoodsens@tcd.ie </emailAddress>
+        <password> hdiat466 </password>
+        <name> Serena Van Der Woodsen </name>
+        <address> Upper East Side </address>
+    </account>
+
+    <account id = "18">
+        <emailAddress > waldorfbl@tcd.ie </emailAddress>
+        <password> 123456 </password>
+        <name> Blair Waldorf </name>
+        <address> Lower East Side </address>
+    </account>
 </accounts>
