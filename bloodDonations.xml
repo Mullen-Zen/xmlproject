@@ -52,24 +52,6 @@
         <password> bcyie444 </password>
         <bloodDonations>
             <bloodType> A- </bloodType>
-            <dateTaken> 10/01/2022 </dateTaken>
-            <donationNumber> 1 </donationNumber>
-        </bloodDonations>
-    </account> 
-
-    <account id = "10">
-        <password> bcyie444 </password>
-        <bloodDonations>
-            <bloodType> A- </bloodType>
-            <dateTaken> 15/07/2022 </dateTaken>
-            <donationNumber> 2 </donationNumber>
-        </bloodDonations>
-    </account> 
-
-    <account id = "10">
-        <password> bcyie444 </password>
-        <bloodDonations>
-            <bloodType> A- </bloodType>
             <dateTaken> 12/12/2022 </dateTaken>
             <donationNumber> 3 </donationNumber>
         </bloodDonations>
