@@ -38,36 +38,49 @@
         <password> hsuwsg44 </password>
         <bloodDonor>
          <dateOfBirth> 1/1/1989 </dateOfBirth>
-         <phoneNumber> 087 341 5885 </phoneNumber>
+         <phoneNumber> 087 123 4554 </phoneNumber>
          <medicalInfo>  none </medicalInfo>
         </bloodDonor>
     </account>
 
-    <account id = "10">
-        <password> bcyie444 </password>
-        <bloodDonor>
-            <dateOfBirth> 15/07/1999 </dateOfBirth>
-            <phoneNumber> 087 341 5885 </phoneNumber>
-            <medicalInfo> none </medicalInfo>
-        </bloodDonor>
-    </account>
+<account id = "10">
+    <password> bcyie444 </password>
+     <bloodDonor>
+
+        <dateOfBirth> 15/07/1999 </dateOfBirth>
+        <phoneNumber> 085 341 1222 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+
+     </bloodDonor>
+</account>
 
 
-    <account id = "11">
-        <password> butterfly </password>
-        <bloodDonor>
-            <dateOfBirth> 15/07/1999 </dateOfBirth>
-            <phoneNumber> 087 341 5885 </phoneNumber>
-            <medicalInfo> none </medicalInfo>
-        </bloodDonor>
-    </account>
+<account id = "11">
+    <password> butterfly </password>
+     <bloodDonor>
 
-    <account id = "13">
-        <password> gifb45sbg </password>
-        <bloodDonor>
-            <dateOfBirth> 15/07/1999 </dateOfBirth>
-            <phoneNumber> 087 341 5885 </phoneNumber>
-            <medicalInfo>  none </medicalInfo>
-        </bloodDonor>
-    </account>
+        <dateOfBirth> 15/07/1999 </dateOfBirth>
+        <phoneNumber> 087 444 2222 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+
+     </bloodDonor>
+</account>
+
+<account id = "13">
+    <password> gifb45sbg </password>
+     <bloodDonor>
+
+        <dateOfBirth> 15/07/1999 </dateOfBirth>
+        <phoneNumber> 087 999 9999 </phoneNumber>
+        <medicalInfo>  none </medicalInfo>
+
+     </bloodDonor>
+</account>
+
+
+
+ 
+
+    
+
 </bloodDonorList>
