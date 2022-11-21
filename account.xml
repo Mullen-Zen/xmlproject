@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE accounts [
-    <!ELEMENT accounts (account+)>
+    <!ELEMENT accounts (account+)> 
     <!ELEMENT account (emailAddress,password,name,address)>
     <!ELEMENT emailAddress (#PCDATA)>
     <!ELEMENT password (#PCDATA)>
